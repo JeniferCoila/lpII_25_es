@@ -1,24 +1,22 @@
+# Ignorar todo en /es/ excepto src/
+es/*
+!es/src/
 
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
-
-
-/es/target/
-/es/.settings/
-/es/.classpath
-/es/.project
-
-# Carpeta de salida de Maven
-
+# Archivos generados por Maven
 *.jar
 *.war
 *.ear
+pom.xml.*
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
 
+# Carpetas de configuración de IDEs
+.es/
+.settings/
+.classpath
+.project
+
+# Ignorar archivos de Maven Wrapper
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
