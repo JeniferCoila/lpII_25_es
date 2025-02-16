@@ -1,22 +1,20 @@
-# Ignorar todo en /es/ excepto src/
-es/*
-!es/src/
-
-# Archivos generados por Maven
-*.jar
-*.war
-*.ear
-pom.xml.*
+target/
+pom.xml.tag
+.metadata
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
-
-# Carpetas de configuración de IDEs
-.es/
-.settings/
-.classpath
-.project
-
-# Ignorar archivos de Maven Wrapper
 .mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+.settings
+Servers
